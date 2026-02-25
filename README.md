@@ -1,4 +1,4 @@
-#Automated CSV Data Processing Pipeline
+# Automated CSV Data Processing Pipeline
 
 A Python-based automation pipeline that processes CSV files, cleans data, generates summaries, and organizes files into structured folders with error handling and validation.
 
