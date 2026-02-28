@@ -1,0 +1,6 @@
+Output/
+Archive/
+Failed/
+Processing/
+__pycache__/
+*.pyc
