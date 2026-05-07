@@ -13,12 +13,19 @@ A Python-based automation pipeline that processes CSV files, cleans data, genera
 
 
 ## Folder Structure
-project/
-|-Input/ (New CSV Files)
-|-Processig/ (Files currently being processed)
-|- Ouput/ (Cleaned data+summaries)
-|- Failed/ (Files that failes validation)
-|__ main.py
+
+```text
+csv-automation-pipeline/
+│
+├── Input/ (New CSV files)
+├── Processing/ (Files currently being processed)
+├── Output/ (Cleaned data + Summaries)
+├── Failed/ (Files that fails validation)
+├── Archive/ (Files that has been summarised)
+├── main.py
+├── README.md
+└── .gitignore
+```
 
 ## Workflow Logic
 For each CSV file:
